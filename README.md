@@ -38,30 +38,49 @@ A modern Task Management Web Application built using the MERN Stack (MongoDB, Ex
 - Input sanitization + validation
 
 ---
-
 ## 📁 Folder Structure
 
-```
 task-manager-app/
-├── client/                  # React frontend
+├── client/                    # React frontend
 │   ├── public/
 │   ├── src/
-│   ├── .env                 # React env
+│   ├── .env                   # React env variables
 │   └── package.json
 │
-├── src/                     # Node.js + Express backend
+├── src/                       # Node.js + Express backend
 │   ├── controllers/
 │   ├── middleware/
 │   ├── models/
 │   ├── routes/
-│   ├── uploads/             # User-uploaded profile images
+│   ├── uploads/               # User-uploaded profile images
 │   └── index.js
 │
-├── .env                     # Backend env variables
+├── .env                       # Backend env variables
 ├── .gitignore
 ├── package.json
 └── README.md
 ```
+task-manager-app/
+├── client/                    # React frontend
+│   ├── public/
+│   ├── src/
+│   ├── .env                   # React env variables
+│   └── package.json
+│
+├── src/                       # Node.js + Express backend
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── uploads/               # User-uploaded profile images
+│   └── index.js
+│
+├── .env                       # Backend env variables
+├── .gitignore
+├── package.json
+└── README.md
+```
+
 
 ---
 
